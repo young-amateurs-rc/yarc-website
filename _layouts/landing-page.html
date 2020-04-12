@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>An amateur radio club for young operators, by young operators</h2>
+                <ul class="actions">
+                    <li><a href="{{site.discord}}" class="button big special">Join Us on Discord</a></li>
+                </ul>
+            </div>
+        </section>
+        {{ content }}
+        {% include /footer.html %}
+    </body>
+
+</html>

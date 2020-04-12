@@ -1,0 +1,20 @@
+# Site settings
+title: Young Amateurs Radio Club
+email: interim@mail.yarc.world
+description: > # this means to ignore newlines until "baseurl:"
+  An amateur radio club.  By youngsters.  For young'ins.
+baseurl: # the subpath of your site, e.g. /blog/
+url: "http://yarc.world" # the base hostname & protocol for your site
+github_username:  young-amateurs-rc
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# common links
+discord: https://discord.gg/ermTXt3
+discord_id: "675545015375888393"
+github: https://github.com/young-amateurs-rc
+
+plugins:
+    - jekyll-sitemap

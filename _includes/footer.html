@@ -1,0 +1,36 @@
+<!-- Footer -->
+<footer id="footer">
+    <section id="two" class="wrapper style2">
+        <div class="container">
+            <div class="row double">
+                <div class="6u">
+                    <div class="row collapse-at-2">
+                        <div class="6u">
+                            <h3>Useful Stuff</h3>
+                            <ul class="alt">
+                                <li><a href="{{site.baseurl}}/logos">YARC Logos</a></li>
+                            </ul>
+                        </div>
+                        <div class="6u">
+                            <h3>Contact Us</h3>
+                            <ul class="alt">
+                                <li><a href="mailto:{{site.email}}">Email</a></li>
+                                <li><a href={{site.discord}}>Discord</a></li>
+                                <li><a href={{site.github}}>Github</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="6u">
+                    <h2>Young Amateurs:</h2>
+                    <p>{{site.description}}</p>
+                </div>
+            </div>
+            <ul class="copyright">
+                <li>&copy; {{ 'now' | date: '%Y' }} Young Amateurs Radio Club. All rights reserved.</li>
+            </ul>
+        </div>
+    </section>
+</footer>
+
+<script src="{{ site.baseurl }}/js/load-quotes.js"></script>
