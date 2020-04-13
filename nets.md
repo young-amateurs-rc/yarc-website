@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Net Information
+published: false
 ---
 
 ## Schedule
