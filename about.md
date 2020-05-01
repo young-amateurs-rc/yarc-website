@@ -16,3 +16,14 @@ David noticed the lack of a strong, active youth community in amateur radio, and
 ## Constitution
 
 The current YARC constitution is available in PDF format [here]({{ site.baseurl }}/pdf/YARC_Constitution_2.pdf)
+
+## Board of Directors
+
+Sterling Mann, N0SSC - *President*  
+Leah Lucius, KJ4IQA - *Vice President*  
+Alexandria Wolford-Griggs, K0PON - *Treasurer*  
+Benjamin Johnson, AB3NJ - *Trustee*  
+Abigail Gold, VA2SHF  
+Howard Xiao, NY7H  
+Jaxon Dupre, N0XNN  
+Léa Longpré
