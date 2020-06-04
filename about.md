@@ -13,10 +13,6 @@ In October of 2017, former YARC President David (KF1SHY) submitted a post titled
 
 David noticed the lack of a strong, active youth community in amateur radio, and hoped to create one. Within a week, the server had nearly 100 members, as it quickly became a popular place for young operators to meet. After a month, a mod team formed, and the server began to host weekly nets on Echolink.
 
-## Constitution
-
-The current YARC constitution is available in PDF format [here]({{ site.baseurl }}/pdf/YARC_Constitution_2.pdf)
-
 ## Board of Directors
 
 Sterling Mann, N0SSC - *President*  
@@ -27,3 +23,11 @@ Abigail Gold, VA2SHF
 Howard Xiao, NY7H  
 Jaxon Dupre, N0XNN  
 Léa Longpré
+
+## Constitution
+
+The current YARC constitution and other important club documents are available on [docs.yarc.world](https://docs.yarc.world).
+
+## Branding
+
+YARC branding and logos are available at [branding.yarc.world](https://branding.yarc.world).
