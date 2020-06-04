@@ -7,12 +7,9 @@
     </a>
     <nav id="nav">
         <ul>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/about">About</a></li>
-            <!--<li><a href="{{ site.baseurl }}/nets">Nets</a></li>-->
-            <li><a href="{{ site.baseurl }}/events">Events</a></li>
-            <li><a href="{{ site.baseurl }}/blog">Updates</a></li>
-            <li><a href="{{ site.baseurl }}/ycp">YCP</a></li>
+            {% for page in site.navpages %}
+            <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+            {% endfor %}
             <li><b>|</b></li>
             <li><a href={{site.discord}}><i class="fab fa-discord"></i></a></li>
             <li><a href={{site.github}}><i class="fab fa-github"></i></a></li>
