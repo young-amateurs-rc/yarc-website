@@ -15,11 +15,14 @@ permalink: pretty
 discord: https://discord.gg/MpQJadu
 discord_id: "675545015375888393"
 github: https://github.com/young-amateurs-rc
+joinform: https://forms.gle/pHA2bg934DHBoiKE9
 
 plugins:
   - jekyll-sitemap
-  
+
 navpages:
+  - name: Join YARC
+    url: https://forms.gle/pHA2bg934DHBoiKE9
   - name: Home
     url: /
   - name: About
