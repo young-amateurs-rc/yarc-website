@@ -9,9 +9,12 @@ Becoming a YARC member is free, and allows you apply to use the WY4RC callsign t
 
 ## History
 
-In October of 2017, former YARC President David (KF1SHY) submitted a post titled ["Discord for young hams"](https://redd.it/73urv5) to the [/r/amateurradio](https://www.reddit.com/r/amateurradio/) subreddit.
+In October of 2017, David Mosden (KF1SHY) submitted a post titled “Discord for young hams” to the /r/amateurradio subreddit.
 
-David noticed the lack of a strong, active youth community in amateur radio, and hoped to create one. Within a week, the server had nearly 100 members, as it quickly became a popular place for young operators to meet. After a month, a mod team formed, and the server began to host weekly nets on Echolink.
+Recognizing that amateur radio is generally dominated by an older population, David hoped to create a strong, active youth community in the hobby. The Discord server David had created, aptly named "Young Hams", quickly became a popular place for young operators to meet.
+Within a few months, a leadership team would form that aided in creating events and activities for the community, including nets, contests, and general moderation of the server. By March of 2018, the community would be officially recognized by the FCC as an official amateur radio club under the call sign WY4RC.
+
+In August of 2019, David stepped down as President of the board. The current board can be found below.
 
 ## Board of Directors
 
