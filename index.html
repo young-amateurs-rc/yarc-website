@@ -1,0 +1,85 @@
+---
+layout: landing-page
+---
+
+        <!-- One -->
+            <section id="one" class="wrapper style1">
+                <header class="major">
+                    <h2>We do cool stuff!</h2>
+                    <p>No really, we do.</p>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="4u"> -->
+                        <div class="6u">
+                            <a href="{{ site.discord }}" class="box-link">
+                            <section class="special box">
+                                <i class="icon fa-comments major" style="background-color:#e91e63"></i>
+                                <h3>Community</h3>
+                                <p>We run the YARC Discord server, which provides an opportunity for you to connect with other young operators around the globe.</p>
+                            </section>
+                            </a>
+                        </div>
+                        <!--<div class="4u">
+                            <a href="{{ site.baseurl }}/nets" class="box-link">
+                            <section class="special box">
+                                <i class="icon fa-microphone major" style="background-color:#000bcd4"></i>
+                                <h3>Nets</h3>
+                                <p>We have a weekly net every Sunday night at 6:00pm MST | 8:00pm EST on the *YACHT* EchoLink conference.</p>
+                            </section>
+                            </a>
+                        </div>-->
+                        <!-- <div class="4u"> -->
+                        <div class="6u">
+                            <a href="{{ site.discord }}" class="box-link">
+                            <section class="special box">
+                                <i class="icon fa-support major" style="background-color:#4caf50"></i>
+                                <h3>Support</h3>
+                                <p>Have questions? Need help? Just ask away in our Discord, where over 150 daily active users are always willing to assist.</p>
+                            </section>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Two -->
+            <section id="two" class="wrapper style2">
+                <header class="major">
+                    <h2>What do our members say?</h2>
+                    <p>Hop in our Discord and ask for yourself!</p>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="8u">
+                            <section class="special" id="testimonials">
+                                <h3 id="test1-title"></h3>
+                                <p id="test1-quote"></p>
+                                <h3 id="test2-title"></h3>
+                                <p id="test2-quote"></p>
+                                <h3 id="test3-title"></h3>
+                                <p id="test3-quote"></p>
+                            </section>
+                        </div>
+                        <div class="4u">
+                            <center>
+                                <iframe src="https://discordapp.com/widget?id={{ site.discord_id }}&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0">Loading Discord widget...</iframe>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Three -->
+            <section id="three" class="wrapper style1">
+                <div class="container">
+                    <h3 style="text-align:center">Recent Posts</h3>
+                    {% for post in site.posts limit:5 %}
+                        <article class="post">
+                            Posted on {{ post.date | date: "%B %e, %Y" }} -
+                            {{ post.categories | uniq | sort | join: ', ' | upcase }}
+                            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                        </article>
+                    {% endfor %}
+                </div>
+            </section>

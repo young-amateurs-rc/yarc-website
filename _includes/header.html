@@ -1,0 +1,18 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <a href="{{ site.baseurl }}/" class="site-title" >
+    <img src="{{ site.baseurl }}/images/siteicon.png" alt="YARC Logo">
+    <h1>{{ site.title }}</h1>
+    </a>
+    <nav id="nav">
+        <ul>
+            {% for page in site.navpages %}
+            <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+            {% endfor %}
+            <li><b>|</b></li>
+            <li><a href={{site.discord}}><i class="fab fa-discord"></i></a></li>
+            <li><a href={{site.github}}><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+</header>
